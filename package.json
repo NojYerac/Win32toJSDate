@@ -1,6 +1,6 @@
 {
   "name": "win32-js-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for converting between Win32 FILETIME and JavaScript Date",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": {
     "name": "Jon Carey",
     "email": "noj.yerac@gmail.com"
-    },
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NojYerac/Win32toJSDate/issues"

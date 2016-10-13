@@ -2,10 +2,6 @@
 const win32tojs = require("..");
 
 describe("The library", function() {
-  it("should instanciate", function() {
-    win32tojs.constructor.name.should.eql("Converter")
-  });
-
   it("should expose the methods", function() {
     win32tojs.toJS.should.be.instanceof(Function);
     win32tojs.toWin.should.be.instanceof(Function);
